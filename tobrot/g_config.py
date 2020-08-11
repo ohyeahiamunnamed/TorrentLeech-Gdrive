@@ -8,5 +8,5 @@ class Config(Config):
 	OWNER_ID = "" #ID of bot owner
 	AUTH_CHANNEL = [-10082786282972]
 	DESTINATION_FOLDER = "HelloMan" #Name of your folder read readme
-	RCLONE_CONFIG = """type = drive\nscope = drive\ntoken = {"access_token":"ya29.fill---your---data----7gGcxnYr71RBuoMVlzhAM_-fil your davxrOpIuvZ-S5lo4YzhYqP:"Bearer","refresh_token":"1//0gnh0j3fUzRITCgYIARAAGBASNwF-L9IrbbYT1QkJg6UCEo3AksHDp6DqUBrhcTBIwUWtlgmbnBQPZKvSAEOTl098VTt8zEojRnY","expiry":"2fill--your--data-07-13T10:4fillyourdata758376Z"}"""
+	RCLONE_CONFIG = """type = drive\nscope = drive\ntoken = {"access_token":"ya29.a0AfH6SMAXMBZvEyehWLtikrbpVlCaAuH6_LepyL9xOJpxYwsPpHrVqeOAK8f1Fkd3o4eOntS8ae6moAL5JLNIqlSo9ZpQO7cOCXxxRfFSfG3DqD1KMzicUeBSf7JzUfiLYEnOMly8O27oyRT_mbhup4FYAoC5-HegaFA:"Bearer","refresh_token":"1//0ds6warEInR1LCgYIARAAGA0SNwF-L9IrgkM5-Q-N2IMWX_4EFrHEgwTgfkJ0LCBgB9jzb2YEg78A6fPXhP9IzOG91Z18SdrzAmU","expiry":"1597147591898"}"""
 	#fill taking reference of this config, dont remove """ from both side of the RCLONE_CONFIG variable 
