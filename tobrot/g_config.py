@@ -8,5 +8,8 @@ class Config(Config):
 	OWNER_ID = "" #ID of bot owner
 	AUTH_CHANNEL = [-1001443143917]
 	DESTINATION_FOLDER = "HelloMan" #Name of your folder read readme
-	RCLONE_CONFIG = """type = drive\nscope = drive\ntoken = {"access_token":"ya29.a0AfH6SMAXMBZvEyehWLtikrbpVlCaAuH6_LepyL9xOJpxYwsPpHrVqeOAK8f1Fkd3o4eOntS8ae6moAL5JLNIqlSo9ZpQO7cOCXxxRfFSfG3DqD1KMzicUeBSf7JzUfiLYEnOMly8O27oyRT_mbhup4FYAoC5-HegaFA:"Bearer","refresh_token":"1//0ds6warEInR1LCgYIARAAGA0SNwF-L9IrgkM5-Q-N2IMWX_4EFrHEgwTgfkJ0LCBgB9jzb2YEg78A6fPXhP9IzOG91Z18SdrzAmU","expiry":"1597147591898"}"""
+	RCLONE_CONFIG = """[Waybetter]
+type = drive
+scope = drive
+token = {"access_token":"ya29.a0AfH6SMAGkw736fFoS7HqGlzawjoOQyPLRVV92CUO8Oox6NDN4F4_NNKZicBPhFc2SNwVxtcA_6pF5o7Oi7YUgB4PogBhju5FlTQbcxUUT88ALqvRSaSDr0i3aRoKUdBBijGLl6KbR5yAKebjQZdcIB6-XiVKDfOnMVU","token_type":"Bearer","refresh_token":"1//0gfzVxdHEtdvACgYIARAAGBASNwF-L9Irjx0eNWpESUtifruY45K27-iIo6std1PBtRA-pSV8VWeQlLjPT5GwxL39a8GzJAKfius","expiry":"2020-08-21T16:20:21.350321011Z"}"""
 	#fill taking reference of this config, dont remove """ from both side of the RCLONE_CONFIG variable 
