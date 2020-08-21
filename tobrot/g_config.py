@@ -7,7 +7,7 @@ class Config(Config):
 	API_HASH = "53830b514cb1d0a388c26ea48478d180"
 	OWNER_ID = "" #ID of bot owner
 	AUTH_CHANNEL = [-1001443143917]
-	DESTINATION_FOLDER = "HelloMan" #Name of your folder read readme
+	DESTINATION_FOLDER = "WAYBETTER" #Name of your folder read readme
 	RCLONE_CONFIG = """[Waybetter]
 type = drive
 scope = drive
